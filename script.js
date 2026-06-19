@@ -54,13 +54,23 @@ document.write("Character at Index 3:" + word3.charAt(3) + "<br>" + "<br>" );
 var city = "Hyderabad";
 var newcity = city.replace("Hyder", "Islam");
 
-document.write("<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
+ document.write("<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
 
  document.write("City:" + city  +"<br>");
  document.write("After Replacemet: " + newcity + "<br>" + "<br>");
+
+//  Question 7
+
+ var message = "Ali and Sami are best freinds. They play cricket and football together.";
+ var newMessage = replaceAll("and", "&");
+
+ document.write("<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
+
+ document.write("Original Msssage: " + message + "<br>" );
+ document.write("Updated Message " + newMessage  + "<br>" + "<br>");
+
+
  
- 
-   
 
 
 
