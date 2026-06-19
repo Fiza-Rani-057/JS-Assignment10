@@ -209,4 +209,29 @@ if(
 }
  
 // Question 17
+ 
+document.write("<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
 
+ var countryName = "Spain";
+ var newName  = countryName[countryName.length - 1]
+
+ document.write("User Input:"+ countryName + "<br>");
+ document.write("Last Character of input:" + newName);
+
+// Question 18 
+
+document.write("<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
+
+ var theText = "The quick brown fox jumps over the lazy dog";
+ var theText = theText.toLowerCase();
+
+ var textWords = theText.split("");
+
+ var totalWords = 0;
+
+ for(var i = 0; i< theText.length; i++){
+    if(theText[i]== "the"){
+        totalWords++;
+    }
+ }
+ document.write("The word  'the' appears in the text" + totalWords + "times");
