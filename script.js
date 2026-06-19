@@ -166,7 +166,7 @@ var newcity = city.replace("Hyder", "Islam");
   
 // Question 15
 
-  document.write("<h1>" + "Question 14" + "<br>" + "<br>" + "</h1>");
+  document.write("<h1>" + "Question 15" + "<br>" + "<br>" + "</h1>");
 
  var password = prompt("Enter your Password");
  var letter = false;
@@ -197,4 +197,14 @@ if(
     document.write("Valid Password");
  }
   
+//  Question 16
+
+  document.write("<h1>" + "Question 16" + "<br>" + "<br>" + "</h1>");
+
+ var university = "University of Karachi";
+  var array = university.split("");
+
+for(var i =0; i < array.length; i++){
+    document.write(arrayy[i] + "<br>");
+}
  
