@@ -101,8 +101,22 @@ var newcity = city.replace("Hyder", "Islam");
  document.write("User Input:" + userInput + "<br>");
  document.write("Upper Case:" + upperCase + "<br>" + "<br>");
  
-//  Question 11 
+//  Question 12
+ 
+ var num = 35.36;
+ var newNum = num.toString();
+ var result = newNum.replace(".", "");
 
+ document.write("<h1>" + "Question 12" + "<br>" + "<br>" + "</h1>");
+ document.write("Number:" + num + "<br>");
+ document.write("Result:" + result + "<br>" + "<br>");
+
+//  Question 13
+
+
+
+
+  
 
 
  
