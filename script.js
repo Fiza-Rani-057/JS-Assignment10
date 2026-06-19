@@ -51,6 +51,16 @@ document.write("Character at Index 3:" + word3.charAt(3) + "<br>" + "<br>" );
 
 // Question 6
 
+var city = "Hyderabad";
+var newcity = city.replace("Hyder", "Islam");
+
+document.write("<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
+
+ document.write("City:" + city  +"<br>");
+ document.write("After Replacemet: " + newcity + "<br>" + "<br>");
+ 
+ 
+   
 
 
 
