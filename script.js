@@ -53,7 +53,7 @@ document.write("Character at Index 3:" + word3.charAt(3) + "<br>" + "<br>" );
 
  var firstname = prompt("Enter your first name");
  var lastname = prompt("Enter your last name");
- var fullName = firstname.concat("", lastname);
+ var fullName = firstname.concat(" " , lastname);
 
     document.write( "<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
 
