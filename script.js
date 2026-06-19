@@ -153,8 +153,8 @@ var newcity = city.replace("Hyder", "Islam");
     
    document.write("<h1>" + "Question 14" + "<br>" + "<br>" + "</h1>");
 
-  for(i = 0;i< bakery; i++){
-  if(bakery===items [i]){
+  for(i = 0;i< bakery.length; i++){
+  if(bakery[i]===items){
     found = true;
    document.write(items + "is available at index" + i + "in our bakery");
   }
@@ -204,7 +204,9 @@ if(
  var university = "University of Karachi";
   var array = university.split("");
 
-for(var i =0; i < array.length; i++){
-    document.write(arrayy[i] + "<br>");
+ for(var i =0; i < array.length; i++){
+    document.write(array[i] + "<br>");
 }
  
+// Question 17
+
