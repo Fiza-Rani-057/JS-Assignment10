@@ -81,6 +81,30 @@ var newcity = city.replace("Hyder", "Islam");
 
 //  Question 9
 
+ var strValue = "472";
+ var numValue = Number(strValue);
+
+ document.write("<h1>" + "Question 9" + "<br>" + "<br>" + "</h1>");
+
+ document.write("Value:" + strValue + "<br>");
+ document.write("Type: " + typeof(strValue) + "<br>");
+ document.write("Value: " + numValue + "<br>");
+ document.write("Type: "+  typeof(numValue) + "<br>" + "<br>" );
+
+//  Question 10
+
+ var  userInput = prompt("What is your Farvorite dry fruit?");
+ var  upperCase = userInput.toUpperCase();
+
+ document.write("<h1>" + "Question 10" + "<br>" + "<br>" + "</h1>");
+
+ document.write("User Input:" + userInput + "<br>");
+ document.write("Upper Case:" + upperCase + "<br>" + "<br>");
+ 
+//  Question 11 
+
+
+
  
 
 
