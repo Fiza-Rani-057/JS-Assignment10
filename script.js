@@ -42,32 +42,46 @@
 
 // Question 5
 
-var word3 = "Pakistani";
+ var word3 = "Pakistani";
 
  document.write( "<h1>" + "Question 5" + "<br>" + "<br>" + "</h1>");
 
 document.write("String:" + word2 + "<br>");
 document.write("Character at Index 3:" + word3.charAt(3) + "<br>" + "<br>" );
 
-// Question 6
+//  Question 6
+
+ var firstname = prompt("Enter your first name");
+ var lastname = prompt("Enter your last name");
+ var fullName = firstname.concat("", lastname);
+
+    document.write( "<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
+
+   document.write("Hello" + " " + fullName  +"<br>" + "<br>");
+
+// Question 7
 
 var city = "Hyderabad";
 var newcity = city.replace("Hyder", "Islam");
 
- document.write("<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
+ document.write("<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
 
  document.write("City:" + city  +"<br>");
  document.write("After Replacemet: " + newcity + "<br>" + "<br>");
 
-//  Question 7
+//  Question 8
 
  var message = "Ali and Sami are best freinds. They play cricket and football together.";
  var newMessage = message.replaceAll("and", "&");
 
- document.write("<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
+ document.write("<h1>" + "Question 8" + "<br>" + "<br>" + "</h1>");
 
  document.write("Original Msssage: " + message + "<br>" );
  document.write("Updated Message " + newMessage  + "<br>" + "<br>");
+
+//  Question 9
+
+ 
 
 
  
