@@ -122,6 +122,8 @@ var newcity = city.replace("Hyder", "Islam");
  document.write("Result:" + result + "<br>" + "<br>");
 
 //  Question 13
+  
+ document.write("<h1>" + "Question 13" + "<br>" + "<br>" + "</h1>");
 
  var inputFromUser = prompt("Enter your Email");
    var validName = true;
@@ -134,12 +136,39 @@ var newcity = city.replace("Hyder", "Islam");
       }
   }
       if(validName){
-        document.write("Valid Username:" +  inputFromUser);
+        document.write("Valid Email:" +  inputFromUser);
 
       }
       else{
-        document.write("Please Enter a valid username");
+        document.write("Please Enter a valid Email");
       }
+
+    //   Question 14
+
+  var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
+   var items = prompt("What do you want to order?");
+     items = items.toLowerCase();
+
+     var found = false;
+    
+   document.write("<h1>" + "Question 14" + "<br>" + "<br>" + "</h1>");
+
+  for(i = 0;i< bakery; i++){
+  if(bakery===items [i]){
+    found = true;
+   document.write(items + "is available at index" + i + "in our bakery");
+  }
+
+}
+ if(!found){
+    document.write("We are sorry." + items + "is not available in our bakery");
+}
+  
+
+  
+
+
+
 
 
 
