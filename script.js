@@ -220,17 +220,17 @@ document.write("<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
 
 // Question 18 
 
-document.write("<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
+document.write("<h1>" + "Question 18" + "<br>" + "<br>" + "</h1>");
 
  var theText = "The quick brown fox jumps over the lazy dog";
- var theText = theText.toLowerCase();
+  theText = theText.toLowerCase();
 
- var textWords = theText.split("");
+ var textWords = theText.split(" ");
 
  var totalWords = 0;
 
- for(var i = 0; i< theText.length; i++){
-    if(theText[i]== "the"){
+ for(var i = 0; i< textWords.length; i++){
+    if(textWords[i]== "the"){
         totalWords++;
     }
  }
