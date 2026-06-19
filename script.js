@@ -62,7 +62,7 @@ var newcity = city.replace("Hyder", "Islam");
 //  Question 7
 
  var message = "Ali and Sami are best freinds. They play cricket and football together.";
- var newMessage = replaceAll("and", "&");
+ var newMessage = message.replaceAll("and", "&");
 
  document.write("<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
 
