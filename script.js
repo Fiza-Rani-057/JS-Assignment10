@@ -101,6 +101,16 @@ var newcity = city.replace("Hyder", "Islam");
  document.write("User Input:" + userInput + "<br>");
  document.write("Upper Case:" + upperCase + "<br>" + "<br>");
  
+//    Question 11 
+
+ var inputUser = prompt("What is your favorite programming language?");
+ var titleCase = inputUser.charAt(0).toUpperCase() + inputUser.slice(1)
+
+  document.write("<h1>" + "Question 11" + "<br>" + "<br>" + "</h1>");
+
+  document.write("User Input: " + inputUser + "<br>");
+  document.write("Title Case:" + titlecase + upperCase + "<br>" + "<br>" );
+
 //  Question 12
  
  var num = 35.36;
