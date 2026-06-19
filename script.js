@@ -146,8 +146,8 @@ var newcity = city.replace("Hyder", "Islam");
     //   Question 14
 
   var bakery = ["cake", "apple pie", "cookie", "chips", "patties"];
-   var items = prompt("What do you want to order?");
-     items = items.toLowerCase();
+   var items = prompt( "Welcome to our bakery.What do you want to order?");
+     items = items.toLowerCase()
 
      var found = false;
     
@@ -159,29 +159,42 @@ var newcity = city.replace("Hyder", "Islam");
    document.write(items + "is available at index" + i + "in our bakery");
   }
 
+ }
+  if(!found){
+    document.write("We are sorry ." + items + "is not available in our bakery");
+  }
+  
+// Question 15
+
+  document.write("<h1>" + "Question 14" + "<br>" + "<br>" + "</h1>");
+
+ var password = prompt("Enter your Password");
+ var letter = false;
+ var number = false;
+
+ for(i = 0; i < password.length; i++ ){
+
+    var code = password.charCodeAt(i);
+
+    if((code >= 65 && code <= 90) || (code >= 97 && code <= 122)){
+    letter = true;
+    }
+    
+    if(code >= 48 && code <= 57){
+        number = true;
+    }
 }
- if(!found){
-    document.write("We are sorry." + items + "is not available in our bakery");
+ 
+if(
+    password.length < 6 ||
+    password.charCodeAt(0)  >= 48 && password.charCodeAt(0) <= 57 ||
+    !letter ||
+    !number
+) {
+    document.write("Please Enter a valid password");
 }
+ else{
+    document.write("Valid Password");
+ }
   
-
-  
-
-
-
-
-
-
-
-  
-
-
  
-
-
- 
-
-
-
-
-
